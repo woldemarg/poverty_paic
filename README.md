@@ -10,7 +10,9 @@
 * Загальга ідея візуалізації - [NY Times](https://www.nytimes.com/2014/04/23/upshot/the-american-middle-class-is-no-longer-the-worlds-richest.html?abt=0002&abg=1)
 * Витрати і ресурси домогосподарств України - [Держстат України](http://www.ukrstat.gov.ua/druk/publicat/Arhiv_u/17/Arch_vrd_zb.htm)
 * Самооцінка домогосподарствами рівня своїх доходів - [Держстат України](http://www.ukrstat.gov.ua/operativ/operativ2006/gdn/sdrsd/arh_sdrsd.html)
-* Прожитковий мінімум - Закон України "Про Державний бюджет України" на відповідний рік
+* [PovcalNet](http://iresearch.worldbank.org/PovcalNet/home.aspx)
+* [Eurofound](https://www.eurofound.europa.eu/data/european-quality-of-life-survey)
+* [Eurobarometer](http://ec.europa.eu/commfrontoffice/publicopinion/archives/ebs/ebs_355_en.pdf)
 
 3. Самооцінка медіанного доходу:
 * Самооцінка домогосподарствами рівня своїх доходів - [Держстат України](http://www.ukrstat.gov.ua/operativ/operativ2006/gdn/sdrsd/arh_sdrsd.html)
@@ -27,6 +29,3 @@
 
 6. Пріоритети витрачання грошей
 * Самооцінка домогосподарствами рівня своїх доходів - [Держстат України](http://www.ukrstat.gov.ua/operativ/operativ2006/gdn/sdrsd/arh_sdrsd.html)
-
-Методичні матеріали:
-* [Manual on sources and methods for the compilation of COFOG Statistics](http://ec.europa.eu/eurostat/documents/3859598/5917333/KS-RA-11-013-EN.PDF)

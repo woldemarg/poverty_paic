@@ -5,7 +5,9 @@ library(ggalt)
 library(directlabels)
 
 
-df_raw <- read_excel("state_responsibility/chart_data/data.xlsx", 1)
+df_raw <-
+  read_excel("scripts_n_data/4_state_responsibility/chart_data/data.xlsx",
+             1)
 
 #transform and simplify data
 df_reshaped <- df_raw %>% spread(key = year, value = value)
@@ -102,12 +104,10 @@ ggplot(data)  +
   scale_y_discrete(expand = c(0, 1)) +
 
   #titles
-  labs(
-    #y = "групи",
+  labs(#y = "групи",
     title = "Бідні українці покладаються на державу",
     subtitle = "Населення по децильних (10%-их) групах за доходами,\nяке вважає, що за його матеріальний добробут несе\nвідповідальність повністю або переважно держава, %",
-    caption = "За даними Держстату України"
-  ) +
+    caption = "За даними Держстату України") +
 
   #geom_dumbbell is originally for horizontal layout
   coord_flip() +
@@ -157,7 +157,7 @@ ggplot(data)  +
 
 
 ggsave(
-  "4_state_responsibility.png",
+  "story_charts/4_state_responsibility.png",
   device = "png",
   units = "in",
   dpi = 600,
