@@ -46,8 +46,8 @@ plot <- ggplot(data = df_flt,
   scale_color_manual(values = c("#FAA61A80", "#3A3F4ACC"),
                      guide = "none") +
 
-  scale_y_continuous(expand = c(0, 0.1),
-                     limits = c(0, max(df_flt$share))) +
+  scale_y_continuous(limits = c(0, 80),
+                     expand = c(0, 0.9, 0, 0)) +
 
   scale_x_continuous(
     breaks = seq(2008.5, 2016.5, 7),
